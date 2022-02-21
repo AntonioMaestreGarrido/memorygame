@@ -1,0 +1,39 @@
+@font-face {
+  font-family: super;
+  src: url(Lord.ttf);
+}
+#root {
+  margin: 0;
+}
+h1 {
+  font-family: super;
+
+  color: black;
+  font-size: 56px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+#cardContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.imgcontainer {
+  border: solid 4px grey;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100px;
+  box-shadow: 15px 15px 15px black;
+}
+.imgcontainer > img {
+}
